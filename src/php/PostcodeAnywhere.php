@@ -289,7 +289,7 @@ class PostcodeAnywhere {
      * @return type
      */
     public function buildRequest(){
-
+        $this->request = [];
         foreach($this->params as $key=>$val)
         {   
                 // ommit parameters with empty values
